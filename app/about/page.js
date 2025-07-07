@@ -1,7 +1,6 @@
 'use client';
-import "../styles/globals.css";
-import ComputerHeader from "../components/Headers/ComputerHeader.js";
-
+import "../../styles/globals.css";
+import ComputerHeader from "../../src/components/Headers/ComputerHeader.js";
 export default function Home() {
   return (
     <div>

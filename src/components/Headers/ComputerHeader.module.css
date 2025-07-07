@@ -12,6 +12,7 @@
 .nav {
     display: flex;
     width: 100%;
+    align-items: center;
 } 
 
 .nav ul {
@@ -24,4 +25,8 @@
 
 .nav ul li {
     cursor: pointer;
+}
+
+.logo {
+    padding-left: 5%;
 }
