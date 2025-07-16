@@ -1,10 +1,10 @@
-'use client';
+"use client";
 import "../../styles/globals.css";
-import ComputerHeader from "../../src/components/Headers/ComputerHeader.js";
+import ComputerHeader from "../../src/components/Headers/computerHeader.js";
 export default function Home() {
   return (
     <div>
-            <ComputerHeader></ComputerHeader>
+      <ComputerHeader></ComputerHeader>
     </div>
   );
 }

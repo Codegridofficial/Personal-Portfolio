@@ -1,0 +1,25 @@
+.swing {
+    color: white;
+    animation: fade 1s ease-in, up 1s 1s forwards ;
+}
+
+.base {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+@keyframes fade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes up {
+    from { transform: translateY(0); }
+    to { transform: translateY(-200px); }
+}
+
+#__next {
+    height: 100%;
+}

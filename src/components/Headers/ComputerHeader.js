@@ -1,10 +1,9 @@
-'use client';
+"use client";
 
-import styles from './ComputerHeader.module.css'
-import { redirect } from '@/utils/redirect.js'
-import { useEffect } from 'react'
-import { setupRedirectOnClick } from '@/utils/redirect.js'
-import { useRouter } from 'next/navigation';
+import styles from "./computerHeader.module.css";
+import { useEffect } from "react";
+import { setupRedirectOnClick } from "@/utils/redirect.js";
+import { useRouter } from "next/navigation";
 
 export default function ComputerHeader() {
   const router = useRouter()
